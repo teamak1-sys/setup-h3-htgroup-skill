@@ -18,6 +18,12 @@ Kích hoạt khi người dùng muốn cài, sửa hoặc tiếp tục cài hệ
 - Không tin tên file, kích thước gần đúng, HTTP 200 hay mã thoát 0 khi checker báo bỏ qua. Phải kiểm đúng route, header trọng số, node/model/input và backend thật.
 - Mỗi lần cài có RUN riêng. State trên đĩa là nguồn sự thật. Không tự sửa state.json, không nhảy checkpoint, không tạo run mới để né lỗi. Lỗi thì dừng đúng bước và sửa. Đọc đúng tệp tham chiếu của bước hiện tại, không đọc cả gói.
 
+## Máy nào cần gì
+
+- **Làm phim** (skill điều phối): máy khác không cần bản sao dự án, chỉ cần mạng tới máy chủ dữ liệu 8001. Skill này và skill điều phối dùng chung máy chủ đó.
+- **Cài máy H3** (skill này): máy chạy lệnh cài **cần mã dự án** (script nguồn, môi trường Python của dự án) vì nó chạy/deploy chính mã đó; máy Linux/GPU nhận mã bằng cách kéo repo ngay trên máy đó, không chép từ máy điều khiển.
+- Không đọc mã sản phẩm để "hiểu hệ thống"; lỗi thì báo chủ dự án, không tự sửa mã đang khoá.
+
 ## Sổ chạy bắt buộc
 
 Đọc references/00-checkpoint.md lúc bắt đầu/tiếp tục. Dùng:
