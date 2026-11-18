@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: modal-weights-before-gpu
+expected_outcome: |
+  Giữ checkpoint đúng; xin phép CPU/storage trước khi chạy; không deploy hoặc probe GPU trước approve-gpu; kiểm H3 4/4 và SDXL trực tiếp trên Volume.
