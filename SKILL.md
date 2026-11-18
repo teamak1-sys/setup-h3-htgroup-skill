@@ -24,6 +24,12 @@ Kích hoạt khi người dùng muốn cài, sửa hoặc tiếp tục cài hệ
 - **Cài máy H3** (skill này): máy chạy lệnh cài **cần mã dự án** (script nguồn, môi trường Python của dự án) vì nó chạy/deploy chính mã đó; máy Linux/GPU nhận mã bằng cách kéo repo ngay trên máy đó, không chép từ máy điều khiển.
 - Không đọc mã sản phẩm để "hiểu hệ thống"; lỗi thì báo chủ dự án, không tự sửa mã đang khoá.
 
+## Lấy gói này ở đâu
+
+- Địa chỉ: `https://github.com/teamak1-sys/setup-h3-htgroup-skill.git` (repo **riêng**, cần đăng nhập GitHub trên máy đích).
+- Cài trên máy khác: `git clone https://github.com/teamak1-sys/setup-h3-htgroup-skill.git "<chỗ bộ nạp kỹ năng đọc>"`. Không có mạng hoặc không đăng nhập được thì nhận tệp nén của gói, giải nén vào đúng chỗ đó.
+- Cập nhật: `git -C "<chỗ gói kỹ năng>" pull --ff-only`. Máy nào dùng bản cũ thì bảo chủ dự án cập nhật, không tự sửa tay cho khác bản.
+
 ## Sổ chạy bắt buộc
 
 Đọc references/00-checkpoint.md lúc bắt đầu/tiếp tục. Dùng:
