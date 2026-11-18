@@ -26,8 +26,8 @@ Kích hoạt khi người dùng muốn cài, sửa hoặc tiếp tục cài hệ
 
 ## Lấy gói này ở đâu
 
-- Địa chỉ: `https://github.com/teamak1-sys/setup-h3-htgroup-skill.git` (repo **riêng**, cần đăng nhập GitHub trên máy đích).
-- Cài trên máy khác: `git clone https://github.com/teamak1-sys/setup-h3-htgroup-skill.git "<chỗ bộ nạp kỹ năng đọc>"`. Không có mạng hoặc không đăng nhập được thì nhận tệp nén của gói, giải nén vào đúng chỗ đó.
+- Địa chỉ: `https://github.com/teamak1-sys/setup-h3-htgroup-skill.git` (repo **công khai**, kéo không cần đăng nhập).
+- Cài trên máy khác: `git clone https://github.com/teamak1-sys/setup-h3-htgroup-skill.git "<chỗ bộ nạp kỹ năng đọc>"`. Không có mạng thì nhận tệp nén của gói, giải nén vào đúng chỗ đó.
 - Cập nhật: `git -C "<chỗ gói kỹ năng>" pull --ff-only`. Máy nào dùng bản cũ thì bảo chủ dự án cập nhật, không tự sửa tay cho khác bản.
 
 ## Sổ chạy bắt buộc
